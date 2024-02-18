@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    margin-top:0;
+    width:80%;
+    height:700px;
+    padding-top: 100px;
+
+    }
+.parent .title_reg{
+    width:300px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;    
+    background-color:rgba(1, 143, 159, 0.442) ;
+    border-radius: 20%;
+}
+.parent .title_reg h2{
+    font-family: 'Kalam', cursive;  
+    padding-bottom: 10px;
+    font-size: 30px;
+
+}
+.parent .title_reg p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.parent form{
+    margin-top: 0px;
+    width:600px;
+    height:550px;
+    margin-left:20%;
+}
+.parent form h2{
+    padding-left:20px;
+    font-family: 'Kalam', cursive;  
+}
+.parent form .formshape{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+
+}
+.parent form .formshape label{
+    padding-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    
+}
+.parent form .formshape input{
+    border:3px solid rgba(1, 143, 159, 0.442) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:500px;
+    height:30px;
+
+}
+.parent form .formshape button{
+    border:none;
+    width:500px;
+    height:30px;
+    cursor: pointer;
+    font-size:17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color:rgba(1, 143, 159, 0.329);
+
+}
+.parent form .formshape .register{
+    padding-top: 20px;
+}
+.parent form .formshape .register a{
+    text-decoration: none;
+    color:rgb(2, 153, 170);
+    font-size: 18px;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.parent form .formshape .register p{
+    font-size: 18px;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

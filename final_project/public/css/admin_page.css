@@ -1,0 +1,46 @@
+.card{
+    margin: auto;
+    background-color:rgba(1, 143, 159, 0.442) ;
+    width:800px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    padding:120px 50px;
+    border-radius: 20px;
+}
+.card .title{
+   margin-bottom: 40px;
+}
+.card .title h1{
+    padding:10px;
+    font-family: 'Kalam', cursive;  
+    font-size: 40px;
+}
+
+.card .title p{
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card .tools{
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+.card .tools a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.752);
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.card .tools a:hover{
+    border: 2px solid  black;
+}
+
+

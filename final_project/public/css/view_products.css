@@ -1,0 +1,54 @@
+table{
+    margin:auto;
+    padding-top: 150px;
+}
+table tbody td img{
+    width:200px;
+    height:200px;
+}
+table thead th{
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.789);
+    color: white;
+    font-family: 'Kalam', cursive;  
+}
+table thead  .lastth{
+    width:200px;
+}
+table tbody tr td{
+    border-right: 1px solid  rgba(128, 128, 128, 0.199);
+    border-bottom: 1px solid  rgba(128, 128, 128, 0.199);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table tbody tr .hash{
+    border-left: 1px solid  rgba(128, 128, 128, 0.199);
+    padding: 10px;
+}
+table tbody tr  .content{
+    width:300px;
+    padding-left:10px;
+}
+table tbody tr  .price{
+   padding-left:35px;
+}
+table tbody tr  .visible{
+   padding-left:25px;
+}
+table tbody tr td .actions a{
+    text-decoration: none;
+    color:white;
+    padding:10px 15px; 
+    border-radius: 7px;
+}
+table tbody tr td .actions{
+    display: flex;
+    justify-content: space-around; 
+}
+table tbody tr td .actions .edit a{
+    background-color: rgb(56, 185, 44);
+}
+table tbody tr td .actions .delete a{
+    background-color: rgb(210, 44, 44);
+}

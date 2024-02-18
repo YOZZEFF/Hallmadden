@@ -1,0 +1,51 @@
+.users{
+    margin:auto;
+    padding-top: 150px;
+    width:800px;
+    
+}
+
+.users thead th{
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.789);
+    color: white;
+    font-family: 'Kalam', cursive;  
+}
+
+.users tbody tr td{
+    border-right: 1px solid  rgba(128, 128, 128, 0.199);
+    border-bottom: 1px solid  rgba(128, 128, 128, 0.199);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+}
+.users tbody tr td .confirm{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.users tbody tr td .confirm a {
+    text-decoration: none;
+    padding-left: 30px;
+
+}
+
+.users tbody tr td .confirm  button{
+    color:white;
+    border-radius: 7px;
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+
+
+
+}
+.users tbody tr td .confirm  .con{
+    background-color: rgb(56, 185, 44);
+
+}
+.users tbody tr td .confirm  .notcon{
+    background-color: rgb(210, 44, 44);
+
+}

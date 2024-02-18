@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100% ;
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+
+} 
+/* /// */
+.container form{
+    width:600px;
+    padding-top: 100px;
+    height:550px;
+    background-color:rgba(1, 143, 159, 0.434);
+    margin-left: 400px;
+    padding-left: 30px;
+
+
+}
+
+.container  form h2{
+    padding-top: 10px;
+    padding-left:200px;
+    font-family: 'Kalam', cursive;  
+    font-size: 30px;
+}
+.container form .formshape_add{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+
+}
+.container  form .formshape_add label{
+    padding-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    
+}
+.container  form .formshape_add input{
+    border:3px solid rgba(1, 143, 159, 0.442) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:500px;
+    height:30px;
+
+}
+.container  form .formshape_add textarea{
+    border:3px solid rgba(1, 143, 159, 0.442) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 500px;
+    max-height:80px;
+    
+
+}
+.container  form .formshape_add button{
+    border:none;
+    width:500px;
+    height:30px;
+    cursor: pointer;
+    font-size:17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color: rgb(4, 164, 181) ;
+    border:2px solid white
+
+}
+.container .childs .child h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    font-family: 'Kalam', cursive;  
+
+}
+.container .childs .child p{
+    padding-bottom: 5px;
+    font-size:17px;
+}
+
+.container .childs .child{
+    width:250px;
+    height: 150px;
+    margin: 0px 10px;
+    background-color:white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.container .childs .child img{
+    width:50px;
+    height:50px; 
+    padding: 4px;
+    background-color: rgb(4, 164, 181) ;
+    border-radius: 30px;
+}
+.container .childs{
+    width:80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:17px;
+    height:200px;
+    margin-left: 160px;
+    padding-top: 120px;
+    display: flex;
+    text-align: center;
+    z-index:1;
+}

@@ -1,0 +1,44 @@
+.feedbacks{
+    margin:auto;
+    padding-top: 150px;
+    width:800px;
+    
+}
+
+
+.feedbacks tbody tr td{
+    border-right: 1px solid  rgba(128, 128, 128, 0.199);
+    border-bottom: 1px solid  rgba(128, 128, 128, 0.199);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+}
+
+.feedbacks tbody tr td .displaying{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.feedbacks tbody tr td .displaying a {
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+
+.feedbacks tbody tr td .displaying  button{
+    color:white;
+    border-radius: 7px;
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+
+
+
+}
+.feedbacks tbody tr td .displaying  .con{
+    background-color: rgb(56, 185, 44);
+
+}
+.feedbacks tbody tr td .displaying  .notcon{
+    background-color: rgb(210, 44, 44);
+
+}

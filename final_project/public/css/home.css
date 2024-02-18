@@ -1,0 +1,402 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site{
+    margin:auto;
+    width:80vw;
+}
+/* start navbar */
+ .navbar .icon{
+    display: none;
+ }
+ nav .navbar{
+    width:80vw;
+    height:50px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    z-index: 999;
+}
+nav .navbar .logo p{
+    color:black;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Kalam', cursive;   
+}
+nav .navbar .logo p span{
+    color:black;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Kalam', cursive;
+}
+nav .navbar  .links a{
+text-decoration: none;
+padding: 0px 10px;
+color:black;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 15px;
+font-weight: 600;
+
+}
+
+nav  img{
+    height:32px;
+    width:32px;
+    display: none; 
+  }
+
+
+nav .navbar .links .active{
+    color:rgb(1, 143, 159);
+}
+nav  .navbar .links a:hover{
+    color:rgb(1, 143, 159);
+}
+/* end navbar */
+/* start section one */
+.section_one{
+    width:100%;
+    height: 750px;
+    position: relative;
+}
+img{
+    width:100%;  
+    height:750px;  
+}
+.section_one .words{
+    position: absolute;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.208);
+    top: 30%;
+    left:0;
+    padding: 20px;
+    width:400px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section_one .words span{
+    color:rgb(1, 143, 159);
+    font-weight: bolder;
+}
+/* end section one */
+/* start section two */
+.section_two{
+    width:100%;
+    height:800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.section_two .child{
+    width:350px;
+    height:360px;
+    padding-left: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_two .child p{
+    font-size:17px;
+    font-weight: 400;
+    color:rgba(167, 161, 161, 0.629);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section_two .child a{
+    font-size:17px;
+    text-decoration: none;
+    color:rgb(1, 143, 159,0.629);
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section_two .child img{
+    width:250px;
+    height:300px;
+} 
+.section_two .child span{
+    font-weight:500;
+    font-size:17px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+
+
+ @media (min-width:1125px) and (max-width:1450px){
+ 
+    .section_two .child{
+        width:300px;
+        padding-left: 25px;
+    
+        
+    }
+
+}
+@media (min-width:1000px) and (max-width:1125px){
+
+    .section_two .child{
+        width:250px;
+        padding-left: 0px;
+    
+        
+    }
+   
+}
+@media (min-width:750px) and (max-width:1000px){
+    .section_one img,
+    .section_one{
+      height:550px;
+    }
+    .section_two {
+        height:1200px;
+    
+        
+    }
+    .section_two .child{
+        width:300px;
+        padding-left: 18px;
+    
+        
+    }
+   
+} 
+
+
+@media (min-width:500px) and (max-width:1000px){
+/* to hide avalible hight of site(js) */
+.hidden{
+        overflow: hidden;
+    } 
+   
+nav .links{
+        display: none;
+}
+.navbar .icon{
+        display: block;
+      }
+nav {
+        position: relative;
+      }
+nav .icon{
+        position: absolute;
+        right:-900px;
+        top:50px;
+        width:100%;
+        height: 500vh;
+        background-color:rgb(1, 143, 159);
+
+        transition:1s
+}
+nav .icon ul a{
+        text-decoration: none;
+        font-size: 30px;
+        margin-top: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+}
+nav .icon ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.navbar .icon #closing{
+        position: absolute;
+        font-size: 30px;
+        left:20px;
+        font-weight: 900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;
+    }
+nav  img{
+        display:block;
+      }
+} 
+
+/* end section two */
+/* start footer */
+footer{
+    width:100%;
+    height:350px;
+    background-color:rgb(1, 143, 159);
+}
+.section_three{
+    display: flex;
+    width: 100%;
+    height:300px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.section_three .child{
+    width:300px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 30px;
+    padding: 10px;
+}
+.section_three .two .sign_up{
+    font-size:17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 5px;
+
+}
+.section_three .one h3{
+    font-family: 'Kalam', cursive;  
+    font-size:20px;
+    padding-bottom: 5px;
+}
+.section_three .one p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:17px;
+
+}
+.section_three .two h3{
+    font-family: 'Kalam', cursive;  
+    font-size:20px;
+    padding-bottom: 5px;
+
+}
+.section_three .two form input{
+    width:200px;
+    height:30px;
+    border:3px solid rgb(1, 101, 112);  
+    color:rgba(0, 0, 0, 0.03);
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section_three .two form button{
+    width:70px;
+    height:30px;
+    cursor: pointer;
+    color:white;
+    background-color:rgb(1, 143, 159);
+    border:3px solid white;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section_three .three h3{
+    font-family: 'Kalam', cursive;  
+    font-size:20px;
+    padding-bottom: 5px;
+}
+.section_three .three p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:17px; 
+    padding-bottom: 5px;
+}
+
+@media (min-width:750px) and (max-width:1070px){
+    
+ 
+footer{
+    height: 300px;
+}
+    .section_three .two form input{
+        margin-bottom: 5px;
+        height: 25px;
+    }
+    .section_three .two form button{
+        width:200px;
+        font-size:10px;
+        height: 25px;
+    }
+    .section_three .one h3,
+    .section_three .two h3,
+    .section_three .three h3
+    {
+        font-size: 18px;
+    }
+    .section_three .one p,
+    .section_three .two p,
+    .section_three .three p
+    {
+        font-size: 13px;
+        font-size: 15px;
+    }
+}
+@media (min-width:300px) and (max-width:750px){
+    .hidden{
+        overflow: hidden;
+    } 
+   
+nav .links{
+        display: none;
+}
+.navbar .icon{
+        display: block;
+      }
+nav {
+        position: relative;
+      }
+nav .icon{
+        position: absolute;
+        right:-900px;
+        top:50px;
+        width:100%;
+        height: 500vh;
+        background-color:rgb(1, 143, 159);
+
+        transition:1s
+}
+nav .icon ul a{
+        text-decoration: none;
+        font-size: 30px;
+        margin-top: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+}
+nav .icon ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.navbar .icon #closing{
+        position: absolute;
+        font-size: 30px;
+        left:20px;
+        font-weight: 900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;
+    }
+nav  img{
+        display:block;
+      }
+    .section_one {
+        height:600px;
+    }
+    .section_one img{
+        height:600px;
+    }
+    .section_two{
+        height: 400vh;
+    } 
+     footer{
+        height:600px;
+     }
+    .section_three .child{
+        width:400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section_three .child p{
+        width:300px;
+    }
+    .section_three{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height:600px;
+        margin-bottom: 0px;
+    }
+}
+/* end footer */
+

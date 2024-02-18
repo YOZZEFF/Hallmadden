@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+.form_profile{
+    width:800px;
+    height:400px;
+    margin-left:20%;
+    margin-top: 100px;
+}
+.form_profile h1{
+    padding-left:20px;
+    font-family: 'Kalam', cursive;  
+}
+.form_profile .formshape_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:30px;
+
+}
+.form_profile .formshape_2 label{
+    padding-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color:rgb(18, 125, 137);
+    
+}
+.form_profile .formshape_2 input{
+    /* border:3px solid rgba(1, 143, 159, 0.442) ; */
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:500px;
+    height:30px;
+    font-size: 22px;
+    
+
+}
+.form_profile .formshape_2 button{
+    border:none;
+    width:600px;
+    height:30px;
+    cursor: pointer;
+    font-size:17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color:rgba(1, 143, 159, 0.329);
+
+}
